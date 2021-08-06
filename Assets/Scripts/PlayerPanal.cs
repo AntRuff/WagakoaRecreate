@@ -5,14 +5,23 @@ using UnityEngine.UI;
 
 public class PlayerPanal : MonoBehaviour
 {
+	[Header("Portrait Settings")]
 	public Image image;
 	public Sprite portrait;
+
+	[Header("Name Settings")]
 	public Text playerText;
 	public string playerName;
+
+	[Header("Heart Settings")]
 	public Text heartText;
 	public int heartCounter;
+
+	[Header("Soul Settings")]
 	public Text soulsText;
 	public int soulsCounter;
+
+	[Header("Humanity Settings")]
 	public Text humanityText;
 	public int humanityCounter;
 
