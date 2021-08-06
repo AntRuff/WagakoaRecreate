@@ -41,7 +41,7 @@ public class PlayerPanal : MonoBehaviour
 	public void changeHumanity(int value)
 	{
 		humanityCounter += value;
-		humanityText.text = "Souls: " + humanityCounter.ToString();
+		humanityText.text = "Humanity: " + humanityCounter.ToString();
 	}
 	// Update is called once per frame
 	void Update()
