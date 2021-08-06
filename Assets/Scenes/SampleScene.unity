@@ -753,6 +753,7 @@ GameObject:
   - component: {fileID: 522478288}
   - component: {fileID: 522478290}
   - component: {fileID: 522478289}
+  - component: {fileID: 522478291}
   m_Layer: 5
   m_Name: Player 4
   m_TagString: Untagged
@@ -822,6 +823,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 522478287}
   m_CullTransparentMesh: 1
+--- !u!114 &522478291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522478287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f26bab20b3f3941a94c0eca8ed8b7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 147876517}
+  portrait: {fileID: 21300000, guid: 053a08ec83214474ca5315f0b2177af9, type: 3}
+  playerText: {fileID: 335692961}
+  playerName: Roxanne
+  heartText: {fileID: 569796828}
+  heartCounter: 4
+  soulsText: {fileID: 417071963}
+  soulsCounter: 1
+  humanityText: {fileID: 648093982}
+  humanityCounter: 4
 --- !u!1 &569796826
 GameObject:
   m_ObjectHideFlags: 0
@@ -1556,6 +1579,7 @@ GameObject:
   - component: {fileID: 1438260079}
   - component: {fileID: 1438260081}
   - component: {fileID: 1438260080}
+  - component: {fileID: 1438260082}
   m_Layer: 5
   m_Name: Player 2
   m_TagString: Untagged
@@ -1625,6 +1649,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1438260078}
   m_CullTransparentMesh: 1
+--- !u!114 &1438260082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438260078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f26bab20b3f3941a94c0eca8ed8b7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 804600092}
+  portrait: {fileID: 21300000, guid: af413dae65fc24944a6c5067db98e29d, type: 3}
+  playerText: {fileID: 75781241}
+  playerName: Alice
+  heartText: {fileID: 1742980315}
+  heartCounter: 4
+  soulsText: {fileID: 1707424743}
+  soulsCounter: 1
+  humanityText: {fileID: 1938652273}
+  humanityCounter: 4
 --- !u!1 &1684237779
 GameObject:
   m_ObjectHideFlags: 0
@@ -1783,6 +1829,49 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1707424741}
   m_CullTransparentMesh: 1
+--- !u!1 &1742621096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1742621098}
+  - component: {fileID: 1742621097}
+  m_Layer: 0
+  m_Name: TestManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1742621097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742621096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87d553b6fe272d7449c184b6e14bc53d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1742621098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742621096}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0356817, y: 0.54352194, z: -1.4491343}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1742980313
 GameObject:
   m_ObjectHideFlags: 0
@@ -1952,6 +2041,7 @@ GameObject:
   - component: {fileID: 1842326049}
   - component: {fileID: 1842326051}
   - component: {fileID: 1842326050}
+  - component: {fileID: 1842326052}
   m_Layer: 5
   m_Name: Player 1
   m_TagString: Untagged
@@ -2021,6 +2111,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1842326048}
   m_CullTransparentMesh: 1
+--- !u!114 &1842326052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842326048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f26bab20b3f3941a94c0eca8ed8b7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 641523586}
+  portrait: {fileID: 21300000, guid: 0b978bad3b0b048478615d3ed7e16cfb, type: 3}
+  playerText: {fileID: 1820305660}
+  playerName: Protagitha
+  heartText: {fileID: 1684237781}
+  heartCounter: 4
+  soulsText: {fileID: 1289951198}
+  soulsCounter: 1
+  humanityText: {fileID: 1406702421}
+  humanityCounter: 4
 --- !u!1 &1922514392
 GameObject:
   m_ObjectHideFlags: 0
@@ -2190,6 +2302,7 @@ GameObject:
   - component: {fileID: 2095478399}
   - component: {fileID: 2095478401}
   - component: {fileID: 2095478400}
+  - component: {fileID: 2095478402}
   m_Layer: 5
   m_Name: Player 3
   m_TagString: Untagged
@@ -2259,3 +2372,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2095478398}
   m_CullTransparentMesh: 1
+--- !u!114 &2095478402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095478398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f26bab20b3f3941a94c0eca8ed8b7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 638598904}
+  portrait: {fileID: 21300000, guid: da975e49039d497478d589881306e1a7, type: 3}
+  playerText: {fileID: 1250611951}
+  playerName: Kidd
+  heartText: {fileID: 418391752}
+  heartCounter: 4
+  soulsText: {fileID: 1922514394}
+  soulsCounter: 1
+  humanityText: {fileID: 502859646}
+  humanityCounter: 4
