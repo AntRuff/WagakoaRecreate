@@ -29,4 +29,9 @@ public class TestUpdater : MonoBehaviour
 		}
 	}
 
+	public void randHeart()
+	{
+		players[Random.Range(0, players.Count)].changeHearts(Random.Range(-3, 4));
+	}
+
 }

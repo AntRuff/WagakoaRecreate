@@ -9,5 +9,6 @@ public class Card : ScriptableObject
 	public enum type { Action, Event, Deal };
 	public type Type;
 	public string cardName;
+	[TextArea]
 	public string description;
 }
